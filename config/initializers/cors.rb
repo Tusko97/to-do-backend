@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:3001', 'https://to-do-server-reox.onrender.com'
+    origins 'https://strong-raindrop-be683c.netlify.app/', 'https://to-do-server-reox.onrender.com'
 
     resource "*",
       headers: :any,
